@@ -40,7 +40,7 @@ public class OrderController {
 
         order.setMember(member);
         order.setProduct(product);
-        order.setOrderDate(new Date());
+        order.setDate(new Date());
 
         return orderRepository.save(order);
     }

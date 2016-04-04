@@ -33,5 +33,5 @@ public class Order implements Serializable {
     @JsonIgnore
     private Product product;
 
-    private Date orderDate;
+    private Date date;
 }
